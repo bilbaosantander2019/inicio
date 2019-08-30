@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+<head>
+<title>bilbaoSantander2019</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+  
+  body {
+	 font: 20px "Open Sans", sans-serif;
+	 line-height:1.8;	  
+  }
+  h1 {
+	font-size:18px;
+	color:#000000;  
+  }
+  h2 {
+	font-size:15px;
+	color: #666;
+	  text-align: center;
+  }
+  h3 {
+	font-size:13px;
+	color:#4a4a4a;
+	text-align: center;  
+  }
+  h4 {
+	  font-size:10px;
+	  color: black;
+	  background-color: #D17D7F;
+	  text-align: center;
+	  
+  }
+  h5 {
+	  font-size:14px;
+	  color: black;
+	  text-align: center;
+	    line-height: 50px;
+
+	  }
+	  h6 {
+		  font-size: 15px;
+		  line-height: 0.1;
+	  }
+  p {
+	font-size:1.6rem;
+}
+#more {
+	display: none;
+}
+ .navbar {
+  padding-right: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  background-color:#EF4144;
+  letter-spacing: 0px;
+}
+
+ .navbar-nav li a {
+  color:white !important;
+}
+ .navbar-nav li a:hover {
+  color:#FFF !important;
+}
+header {
+  background: #FFF;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  text-align: center;
+  z-index:2;
+}
+.nav-up {
+  top: -50px;
+}
+.navbar-brand {
+	color:#FFF !important;
+	font-size: 30px;
+	}
+.navbar-brand:hover {
+	color:#FFF !important;
+	}
+	.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #fff;
+  line-height: 50px;
+  background: #000
+}
+	.titular {
+		font-size: 1.35em;
+    line-height: 120%;
+    font-weight: 400;
+    margin-bottom: .688rem;
+		color:#111;
+		margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+	}
+	.precio {
+		font-size: 0.688em;
+    line-height: 140%;
+    display: inline;
+    text-transform: uppercase;
+    margin-bottom: 0.375rem;
+	}
+	.cuerpo {
+		font-size: 0.938em;
+    line-height: 140%;
+    font-weight: 400;
+    color: #666;
+	}
+	.localizacion {
+	font-size: 0.688em;
+    line-height: 140%;
+    display: inline-block;
+	}
+  </style>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- INICIO CABECERO -->
+	<header class="nav-down">
+<nav class="navbar navbar-expand-sm navbar-default">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+		<a class="navbar-brand" href="index.html"><b style="font-size: 18px;">Bilbao y Santander 2019</b></a>
+    </div>
+<div class="collapse navbar-collapse" style="text-align: center" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="gustos.html"><h6><b>GUSTOS</b></h6></a></li>
+        <li><a href="index.html"><h6><b>DIARIO</b></h6></a></li>
+        <li><a href="mapa.html"><h6><b>MAPA</b></h6></a></li>
+      </ul>
+    </div>
+  
+</nav>
+</header>
+	<!-- FIN CABECERO -->
+	<div class="col-xs-12" style="margin-top: 60px;">
+		<h1 class="tab-title-text" style=" text-align: center;"><b>PLANIFICACIÓN DIARIA DEL VIAJE</b></h1>
+		</div>
+<!-- EMPIEZA CALENDARIO -->
+	<div class="col-md-7">
+	<div class="col-xs-12" style="margin-top: 65px">
+	<div class="row">
+<div class="container">
+  <div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+		  <div class="col-xs-1">
+		  </div>
+		 <div class="col-xs-2"> 
+			 <a href="#" style="text-decoration: none;"><h4><b>JUE</b></h4><h5><b>29</b></h5></a>
+		</div>
+		 <div class="col-xs-2"> 
+		<a href="#" style="text-decoration: none;"><h4><b>VIE</b></h4><h5><b>30</b></h5></a>
+		</div>
+		 <div class="col-xs-2"> 
+        <a href="#" style="text-decoration: none;"><h4><b>SAB</b></h4><h5 class="circle"><b>31</b></h5></a>
+		</div>
+		 <div class="col-xs-2"> 
+		<a href="domingo.html" style="text-decoration: none;"><h4><b>DOM</b></h4><h5><b>1</b></h5></a>
+		
+		</div>
+		 <div class="col-xs-2"> 
+        <a href="index.html" style="text-decoration: none;"><h4><b>LUN</b></h4><h5><b>2</b></h5></a>
+		</div>
+		  <div class="col-xs-1">
+		  </div>
+      </div>
+	  </div>
+	  
+	      <!-- Left and right controls -->
+    <a class="left carousel-control" href="#" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="domingo.html" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+	</div>
+		</div>
+	</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h3>sábado 31 agosto</h3>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2>CÁDIZ</h2>
+		<h2 style="font-size: 12px; color: #000;"><b>06:00</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<img src="https://i.ytimg.com/vi/-Jj9MSevo6w/maxresdefault.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;">
+		<span class="titular" style="text-decoration: none;">Salir antes que el Sol</span>
+<div><span class="precio">0€ | </span><a href="https://www.google.com/maps/place/Calle+Granja+San+Ildefonso,+C%C3%A1diz/@36.5213819,-6.2876982,17z/data=!3m1!4b1!4m5!3m4!1s0xd0dd3d22f3695eb:0x1fdb15c4b7bb7a4f!8m2!3d36.5213819!4d-6.2855095" target="_blank"><span class="localizacion" >Calle Granja San Ildefonso</span></a></div>
+		<p class="cuerpo">El horario se trata de una propuesta del conductor. Según testimonio de este, "a vosotros qué más os da si vas dormido durante todo el camino"</p>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2>MÉRIDA</h2>
+		<h2 style="font-size: 12px; color: #000;"><b>09:30</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="https://www.abadesareas.com/abades-merida-a5/" target="_blank" ><img src="https://www.abadesareas.com/wp-content/uploads/2018/03/Abades-Merida-123.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="https://www.abadesareas.com/abades-merida-a5/" target="_blank" class="titular" style="text-decoration: none;">Primera parada para desayunar</a>
+<div><span class="precio">16€ | </span><a href="https://www.google.com/maps/place/Abades+M%C3%A9rida/@38.9377396,-6.3643828,17z/data=!4m13!1m7!3m6!1s0xd1426ff08c92c0f:0x32054e3d0adbe05f!2sCalle+del+Palo,+12,+06800+M%C3%A9rida,+Badajoz!3b1!8m2!3d38.9377396!4d-6.3621941!3m4!1s0xd1426ff05b561f1:0x30770ef94cbbb093!8m2!3d38.9384792!4d-6.3612791" target="_blank" ><span class="localizacion">Calle Granja San Ildefonso</span></a></div>
+		<p class="cuerpo">Ubicada en la ciudad de Mérida, se encuentra el área de servicio Abades Mérida, un gran complejo pensado para ofrecer todos los servicios que demandan los viajeros que transitan por la Autovía A5, carretera de Extremadura</p>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2>BURGOS</h2>
+		<h2 style="font-size: 12px; color: #000;"><b>14:00</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="http://barpancho.com/barpancho.php" target="_blank"><img src="http://barpancho.com/imagenes/pancho/portada.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="http://barpancho.com/barpancho.php" target="_blank" class="titular" style="text-decoration: none;">Almuerzo en Burgos y visita a su Catedral</a>
+		<div><span class="precio">40€ | </span><a href="https://www.google.com/maps/place/Casa+Pancho/@42.341973,-3.701541,15z/data=!4m5!3m4!1s0x0:0x796005055b9e4d49!8m2!3d42.341973!4d-3.701541" target="_blank"><span class="localizacion">Calle San Lorenzo</span></a></div>
+		<p class="cuerpo">Casa Pancho posee una amplísima carta de platos en la que no falta el apreciado lechazo de Burgos, diversos menús diarios y una variadísima oferta de raciones y tapas</p>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2>BILBAO</h2>
+		<h2 style="font-size: 12px; color: #000;"><b>17:30</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="https://www.hoteles-silken.com/es/hotel-indautxu-bilbao/" target="_blank"><img src="https://r-ec.bstatic.com/images/hotel/max1024x768/815/81595225.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="https://www.hoteles-silken.com/es/hotel-indautxu-bilbao/" target="_blank" class="titular" style="text-decoration: none;">Llegada al Hotel Silken Indautxu</a>
+		<div><span class="precio">900€ | </span><a href="https://www.google.com/maps/place/Hotel+Silken+Indautxu/@43.2586787,-2.9396933,15z/data=!4m8!3m7!1s0x0:0x6b4cd70e0387bfcd!5m2!4m1!1i2!8m2!3d43.2586787!4d-2.9396933" target="_blank" ><span class="localizacion">Plaza del Bombero Etxaniz</span></a></div>
+		<p class="cuerpo">El Silken Indautxu es uno de los mejores hoteles en el centro de la ciudad, tanto por su ubicación como por las instalaciones y el servicio propios de un alojamiento de 4 estrellas superior</p>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2 style="font-size: 12px; color: #000;"><b>19:00</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="https://www.bilbao.eus/cs/Satellite?c=Page&cid=1272996831505&language=es&pageid=1272996831505&pagename=Bilbaonet%2FPage%2FBIO_ConoceAyuntamiento" target="_blank" ><img src="https://www.bilbao.eus/cs/Satellite?blobcol=urldata&blobheader=image%2Fjpeg&blobheadername1=Content-disposition&blobheadername2=pragma&blobheadervalue2=public&blobkey=id&blobtable=MungoBlobs&blobwhere=1274249146907&ssbinary=true" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="https://www.bilbao.eus/cs/Satellite?c=Page&cid=1272996831505&language=es&pageid=1272996831505&pagename=Bilbaonet%2FPage%2FBIO_ConoceAyuntamiento" target="_blank" class="titular" style="text-decoration: none;">Visita al Ayuntamiento de Bilbao</a>
+		<div><span class="precio">0€ | </span><a href="https://www.google.com/maps?q=ayuntamiento+de+bilbao&biw=1280&bih=689&dpr=2&um=1&ie=UTF-8&sa=X&ved=0ahUKEwihpaKk-arkAhUIUBUIHWEUAYoQ_AUIESgB" target="_blank" ><span class="localizacion">Ernesto Erkoreka Plaza</span></a></div>
+		<p class="cuerpo">El Ayuntamiento o Palacio Municipal construído sobre el solar ocupado antiguamente por el Convento de San Agustín se inauguró el 17 de abril de 1892</p>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2 style="font-size: 12px; color: #000;"><b>19:30</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="https://www.euskadi-basquecountry.org/blog/siete-calles-de-bilbao-10-datos-que-solo-sabras-si-eres-del-botxo/" target="_blank" ><img src="https://turismo.euskadi.eus/contenidos/h_cultura_y_patrimonio/0000011239_h5_rec_turismo/es_11239/images/GL_sietecalles385x220.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="https://www.euskadi-basquecountry.org/blog/siete-calles-de-bilbao-10-datos-que-solo-sabras-si-eres-del-botxo/" target="_blank" class="titular" style="text-decoration: none;">Visita a las Siete Calles de Bilbao (Casco Viejo)</a>
+		<div><span class="precio">0€ | </span><a href="https://www.google.com/maps/place/Casco+Viejo,+Bilbao,+Vizcaya/@43.2600886,-2.9302032,15z/data=!3m1!4b1!4m5!3m4!1s0xd4e4fc93dbad537:0x192f9696d3fb3c86!8m2!3d43.2620922!4d-2.9213408" target="_blank" ><span class="localizacion">Casco Viejo</span></a></div>
+		<p class="cuerpo">Las Siete Calles de Bilbao son el núcleo originario de la villa. Son las mismas por las que transitaron los bilbainos de hace más de siete siglos sin haber sufrido apenas transformaciones sustanciales</p>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2 style="font-size: 12px; color: #000;"><b>20:00</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="https://www.debilbaopues.com/puente-arenal/" target="_blank" ><img src="http://hotelgranbilbao2019.webs3.mirai.es/files/3039222726_9405517d37_o.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="https://www.debilbaopues.com/puente-arenal/" target="_blank" class="titular" style="text-decoration: none;">Visita al Puente del Arenal</a>
+		<div><span class="precio">0€ | </span><a href="https://www.google.com/maps/place/Puente+del+Arenal/@43.2597478,-2.9250556,18.55z/data=!4m5!3m4!1s0x0:0x1fedf281769f1c93!8m2!3d43.2600649!4d-2.9248128" target="_blank" ><span class="localizacion">Paseo del Arenal</span></a></div>
+		<p class="cuerpo">Originalmente, el puente del Arenal se construyó levadizo para facilitar el paso de barcos altos al puerto de Bilbao. Pero debido al uso continuado, el mecanismo dejó de funcionar en 1866 para no volver a abrirse nunca más</p>
+		</div>
+	</div>
+		<div class="col-xs-12">
+	<div clas="row">
+		<h2 style="font-size: 12px; color: #000;"><b>20:15</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="https://www.teatroarriaga.eus/programacion/" target="_blank" ><img src="http://www.lacubana.es/wp-content/uploads/2018/04/el-teatro-arriaga-bilbao-vizacaya-espaa-1024x576.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="https://www.teatroarriaga.eus/programacion/" target="_blank" class="titular" style="text-decoration: none;">Visita al Teatro Arriaga</a>
+		<div><span class="precio">0€ | </span><a href="https://www.google.com/maps/place/Teatro+Arriaga/@43.2595482,-2.9247415,15z/data=!4m5!3m4!1s0x0:0x6f5bcd799b62ebac!8m2!3d43.2595482!4d-2.9247415" target="_blank" ><span class="localizacion">Plaza Arriaga</span></a></div>
+		<p class="cuerpo">El Teatro Arriaga es un teatro de Bilbao, capital de Vizcaya, en el País Vasco. Es un edificio neobarroco de finales del siglo XIX, obra del arquitecto Joaquín de Rucoba</p>
+		</div>
+	</div>
+	
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2 style="font-size: 12px; color: #000;"><b>20:30</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="http://catedralbilbao.com/visita-cultural/visita-publica/" target="_blank" ><img src="https://saposyprincesas.elmundo.es/wp-content/uploads/2017/10/Catedral-de-Bilbao.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="http://catedralbilbao.com/visita-cultural/visita-publica/" target="_blank" class="titular" style="text-decoration: none;">Entrada a la Catedral de Santiago</a>
+		<div><span class="precio">0€ | </span><a href="https://www.google.com/maps/place/Catedral+de+Santiago+de+Bilbao/@43.2571852,-2.9237177,15z/data=!4m5!3m4!1s0x0:0x2b39ba091f307d35!8m2!3d43.2571852!4d-2.9237177" target="_blank" ><span class="localizacion">Plaza de Santiago</span></a></div>
+		<p class="cuerpo">Aprovechando que todavía es agosto, se puede aprovechar el horario ampliado de visita hasta las 21:00 para disfrutar del templo católico que desde 1949 alberga la sede de la diócesis de Bilbao</p>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<h2 style="font-size: 12px; color: #000;"><b>21:30</b></h2>
+		</div>
+	</div>
+	<div class="col-xs-12">
+	<div clas="row">
+		<a href="http://www.guretoki.com/galeria-de-pintxos" target="_blank" ><img src="https://media-cdn.tripadvisor.com/media/photo-s/12/84/a3/80/comidas-y-cenas.jpg" style="width:100%; height: 100%; margin-bottom: 0.688rem;"></a>
+		<a href="http://www.guretoki.com/galeria-de-pintxos" target="_blank" class="titular" style="text-decoration: none;">Cena de pintxos en <i>Gure Toki</i></a>
+		<div><span class="precio">50€ | </span><a href="https://www.google.com/maps/place/Gure+Toki/@43.2593265,-2.9222801,15z/data=!4m5!3m4!1s0x0:0x5d1d8c16e9381b52!8m2!3d43.2593265!4d-2.9222801" target="_blank" ><span class="localizacion"></span>Plaza Nueva</a></div>
+		<p class="cuerpo">Situado en la céntrica Plaza Nueva, ofrece pintxos tradicionales, inspirados en el recetario tradicional vasco, y tapas más creativas, auténtica "alta cocina en miniatura" </p>
+		</div>
+	</div>
+	<div class="col-md-5">
+		
+	</div>
+	
+	
+	
+	
+<script async src="https://imgbb.com/upload.js"></script>
+
+</body>
+</html>
